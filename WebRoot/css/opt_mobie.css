@@ -1,0 +1,190 @@
+.baseinfo {
+	background-color: white;
+	margin: 0 auto;
+	padding: 15px 0 24px 20px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #888888;
+}
+
+.ttpic {
+	background-color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.ttpic span {
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+}
+
+.ttbase{
+	background-color: white;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.ttbase span{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+	margin-left: 5px;
+}
+.oproblem{
+	background-color: white;
+	padding-top: 10px;
+}
+#otitle{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+	margin-left: 20px;
+}
+.fproblem{
+	padding-top:10px;
+	background-color: white;
+}
+#ftitle{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+	margin-left: 20px;
+}
+
+#btitle{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+	margin-left: 20px;
+}
+#atitle{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+	margin-left: 20px;	
+}
+.suggest{
+	padding:10px 20px 0 20px;
+	background-color: white;	
+}
+#tsuggest{
+	font-size: 22px;
+	font-family: 冬青黑体;
+	font-weight:bold;
+	color: #333333;
+}
+button {
+	width: 120px;
+	height: 38px;
+}
+
+button,.b1 {
+	background: #23a1b1;
+	color: #fff;
+}
+
+.b1:HOVER {
+	background: #2ac4c7
+}
+
+button,.b2 {
+	background: #a0a0a0;
+	color: #fff;
+}
+
+.b2:HOVER {
+	background: #bbbaba;
+}
+
+@media screen and (orientation: portrait) {
+  /*竖屏 css*/
+.bscore{
+	padding-top:20px;
+	background-color: white;	
+	height: 270px;
+}
+.ascore{
+	padding-top:20px;
+	background-color: white;	
+	height: 270px;
+}
+.br-wrapper .br-widget .br-current-rating {
+  clear:both;
+  font-size: 16px;
+  line-height: 3;
+  text-align:center;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.br-wrapper .br-widget a {
+  display: block;
+  width: 10.6%;
+  padding: 5px 0;
+  height: 100px;
+  float: left;
+  background-color: #fbedd9;
+  margin: 3.8px;
+  text-align: center;
+}
+  
+} 
+@media screen and (orientation: landscape) {
+  /*横屏 css*/
+.bscore{
+	padding-top:10px;
+	background-color: white;	
+	height: 240px;
+}
+.ascore{
+	padding-top:10px;
+	background-color: white;	
+	height: 240px;
+}
+.br-wrapper .br-widget .br-current-rating {
+  font-size: 2.3vw;
+  height:100px;
+  line-height:100px;
+  float: left;
+  font-weight: 600;
+  margin-left: 4.9%;
+  margin-top: 5px;
+}
+.br-wrapper .br-widget a {
+  display: block;
+  width: 6.5%;
+  padding: 5px 0;
+  height: 100px;
+  float: left;
+  background-color: #fbedd9;
+  margin: 3.8px;
+  text-align: center;
+}
+
+}
+
+
+ul,li{list-style:none;list-style-type:none;}
+/* /*clearfix清除浮动*/
+.clearfix:after{visibility:hidden;display:block;content:" ";clear:both;height:0;line-height:0;}
+.clearfix{zoom:1;} */
+
+/*made*/
+.made{background:#FFF;}
+.madegame{width:100%;overflow:hidden;height: 218px;}
+.madegame2{width:100%;overflow:hidden;height: 350px;}
+#ho{position:relative !important;}
+#ho li{float:left;width:240px;height: 200px;position:relative;background-color: gray;text-align: center;}
+#ho2{position:relative !important;}
+#ho2 li{float:left;width:186px;height: 326px;position:relative;background-color: #e9e9e9;margin:0 5px 0 5px;padding: 10px;}
+#ho3{position:relative !important;}
+#ho3 li{float:left;width:176px;height: 276px;position:relative;background-color: #e9e9e9;margin:0 5px 0 5px;padding: 10px;}
+.gameImg{max-width: 238px;}
+.gameImg2{width: 166px;height:130px;}
+.gameImg3{width: 156px;height:130px;}

@@ -1,0 +1,31 @@
+/*提交食物*/
+.foodForm{width:100%;padding:10px 0;}
+.fsub_title{background: url("/images/fsubmit_bi.png") no-repeat;height: 28px;margin-bottom: 10px;}
+.fsub_title .fsub_text{padding-left: 5px;line-height: 28px;font-size: 18px; color:#1c86d7;}
+.fs-table{background: #E0EEEE;margin-bottom: 10px;}
+.fs-table td{padding-left:5px;padding-top:10px; border-bottom: 2px solid #FFF;}
+.txt {display: inline-block;width: 300px;padding: 7px;line-height: 22px;font-size: 16px;border: 1px solid #cececf;outline: none;background: #FFF;}
+.txt_small{width: 100px;}
+.txt .fs_input {float: left;width: 100%;text-align:center;line-height: 22px;border: 0;outline: none;background: #fff;}
+.txt .fs_input_small{width: 60px;}
+.fs-table .td1{background: #299df6;color: #FFF;text-align: center;width: 30%;}
+#uploadProject,#uploadBiaoQian{display: inline-block;}
+.rightcontent{
+	width: 100%;
+	padding: 5px 10px;
+}
+.td2{
+	width: 65%;
+}
+ul{width: 100%;padding: 0px;margin: 0px;display: block;overflow:hidden;}
+ul li{ list-style: none;float: left;  border-bottom: 2px solid #FFF;margin: 2px 0px;background: #E0EEEE;}
+.li_left{background: #299df6;width: 20%;}
+.li_left p{color: #FFF;text-align: center;height: 154px;font-size: 18px;padding: 55px 20px;}
+.onlyinput p{height: 35px;padding: 2px 20px;}
+input.input_2,select.input_2{margin: 0px;height: 35px;}
+.li_right{width: 80%;}
+.li_input{margin-left: 0px;width: 95%;padding: 0px;}
+.li_right p{margin: 0px 0px 10px 0px;  font-size: 10px;  color: #777;}
+p.upload_li{height: 96px;padding: 15px 20px;}
+p.upload_li2{height: 120px;padding: 5px 20px;}
+.cl{clear: both;}

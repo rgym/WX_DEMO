@@ -1,0 +1,29 @@
+.top-info{width: 795px;float: left;margin-right: 15px;}
+.right{width: 190px;float: right;}
+.illus{width: 100px;height: 100px;margin-right: 15px;}
+.intr{width: 680px;height: 190px;}
+.common_title{border-bottom: 2px solid #0091f2;}
+/* .title{font-size: 13px;font-weight: bold;} */
+.rs-div{width: 100%;}
+.rs-c{min-height: 70px;}
+.size14 {
+font-size: 14px;
+}
+.stress {
+font-weight: bold;
+}
+.red1 {
+color: #0091f2;
+}
+.gray-table .thead {
+background: #ebebeb;
+}
+table{width: 100%;}
+.table0 th, .table0 td, .table1 th, .table1 td, .table2 th, .table2 td, .table3 th, .table3 td {
+padding: 0 10px;
+border: 1px solid #ffc2eb;
+}
+.gray-table th, .gray-table td {
+border-color: #d6d6d6;
+}
+

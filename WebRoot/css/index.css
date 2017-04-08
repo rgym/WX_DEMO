@@ -1,0 +1,234 @@
+.food-1{
+	height: 120px;
+}
+.search-div{
+	width: 670px;margin: 0 auto;padding-top: 30px;
+}
+.search-div .search-main{
+	width: 321px;
+	height: 41px;
+	margin-top: 10px;
+}
+.search-div .search-main input{
+width: 260px;
+height: 28px;
+border: 0;
+float: left;
+padding: 6px 10px;
+background: #EEE;
+}
+.search-div .search-main .search-btn{
+	display:block;
+	cursor: pointer;
+	width: 41px;
+	height: 40px;
+	background: url("/images/food-search-btn.png") no-repeat;
+	float: right;
+}
+.search-div .search-main .search-btn:hover{
+	background-position: 0px -40px;
+}
+.food-2{width: 880px;}
+.food-2 .fmain{width: 860px;}
+.fmain{padding: 0px 20px;}
+.ftul li{
+	float: left;
+	text-align: center;
+	width: 152px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.ftul li img{width: 152px;height: 118px;}
+.ftul li a.taurl{display: block;}
+.ftul li a.ftitle{margin: 5px 0px;font-size: 16px;}
+.ftul li span a{font-size: 12px;}
+.food-3{
+	width: 310px;
+	height: 240px;
+	margin-left: 10px;
+}
+.food-3 .fmain{
+	height: 184px;
+}
+.food-3 .fmain .caldesc{
+width: 168px;
+margin-top: 11px;
+line-height: 25px;
+}
+.food-4{
+	width: 310px;
+	margin-left: 10px;
+	height: 180px;
+}
+/*列表页*/
+.flist .food-3,.flist .food-4{
+	margin-left: 0px;
+}
+.flist-1 {
+	width: 245px;
+	float:left;
+}
+.flist-1 .bgc-n{
+	margin-bottom: 5px;
+}
+.flist-1 .flist-type li{
+height: 60px;
+line-height: 60px;
+-moz-transition:background-color .3s ease;
+-webkit-transition:background-color .3s ease;
+-o-transition:background-color .3s ease;
+transition:background-color .3s ease;
+}
+.flist-1 .flist-type li.selected{
+	background: #1c86d7;
+}
+.flist-1 .flist-type li:hover{
+	background: #1c86d7;
+}
+.flist-1 .flist-type li:hover span{
+	color: #FFF;
+}
+.flist-1 .flist-type li.selected span{
+	color: #FFF;
+}
+.flist-1 .flist-type li span{
+color: #1c86d7;
+margin-left: 10px;
+font-size: 14px;
+}
+.flist-1 .flist-type li a{
+	display: block;
+padding: 0px 20px;
+}
+.flist-1 .flist-type li img{
+	width: 58px;
+	height: 45px;
+vertical-align: middle;
+}
+.flist-2{
+	width: 625px;margin-left: 10px;
+}
+.flist-2 .listul li{
+height: 53px;
+padding: 10px 0px;
+border-bottom: 1px solid #ccc;}
+.flist-2 .listul .f-img{
+	display: inline-block;
+float: left;
+}
+.flist-2 .listul .f-img img{
+	width: 70px;height: 53px;
+}
+.flist-2 .listul li .f-name{
+width: 415px;
+float: left;
+margin-left: 20px;
+line-height: 27px;
+}
+.flist-2 .listul li .f-name .fname-a{
+	font-size: 14px;
+width: 100%;
+display: block;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;}
+.flist-2 .listul li .btn{
+	margin-top: 12px;
+}
+.flist-2 .fl2{
+	padding: 0px 20px 10px 20px;
+}
+.f-right{width: 310px;margin-left: 10px;position: relative;}
+/*食物详细页面*/
+.fdetail-1{
+	width: 230px;
+}
+.fdetail-1 .fdl-1{
+	width:200px;
+	height: 200px;margin-bottom: 10px;
+	padding: 15px;
+}
+.fdetail-1 .fdl-1 img{
+	width: 200px;
+	height: 200px;
+}
+.fdetail-1 .fdl-2{
+	width:100%;}
+.fdetail-2{
+	width: 640px;
+	height: 470px;
+	margin-left: 10px;
+	float: left;
+}
+.fd-2main{
+	padding: 0px 20px 10px 20px;
+}
+.fd-2main .bdshare-f{
+	margin-top: 10px;
+}
+.fd-2main p{
+	padding: 5px 0px;
+	font-size: 14px;
+}
+.fd-2main p span{
+	font-weight: bold;
+}
+.fd-info{
+	width: 100%;
+}
+.fd-info .fd_num{
+	text-align: right;
+}
+.fd-info .fd-head{
+	font-size: 16px;
+}
+/*配餐分析*/
+.plan-left{width: 410px;}
+.plan-left-top{width: 100%;}
+.plan-left-top .pleft{float: left;width: 200px;height: 40px;line-height: 40px;}
+.plan-left-top .pleft-1{color: #1c86d7;}
+.plan-left-top .pleft-1 a{font-size: 18px;color: #1c86d7;}
+.plan-left-top .pleft-2{margin-left: 10px;}
+.plan-left-top .pleft-2 .search-main{
+	width: 198px;height: 38px;border: 1px solid #1c86d7;
+}
+.plan-left-top .pleft-2 .search-main input{width: 138px;border: 0;height: 36px;float: left;padding: 6px 10px;}
+.plan-left-top .pleft-2 .search-btn{
+display: block;
+cursor: pointer;
+height: 36px;
+background: url("/images/food-search-btn.png") no-repeat;
+float: right;}
+.plan-left .pleft-main{
+	width: 100%;
+}
+
+/*提交食物*/
+.foodForm{width: 890px;margin: 0 auto;padding: 20px 0px;}
+.form_top{height: 130px;width: 100%;background: #EEE;margin-bottom: 10px;}
+.fs_t1{height: 100%;width: 530px;float: left;position: relative;}
+.fs_t1 a.fstt1{font-size: 18px;font-weight: bold;line-height: 23px;left: 34px;top: 20px;position: absolute;padding-left: 30px;background: url("/images/fsubmit_small.png") no-repeat;}
+.fs_t1 .fssp1{line-height: 23px;left: 75px;top: 50px;position: absolute;padding-left: 20px;background: url("/images/fsub_sanjiao.png") no-repeat 0px 6px;}
+.fs_t1 .fssp2{top: 75px;}
+.fs_t2{height: 100%;width: 360px;float: left;position: relative;}
+.fs_t2 .fs_search{position: absolute;padding:5px;width: 275px;border: 1px solid #cececf;height:25px;background: #FFF;border-radius: 4px;top: 58px;right: 31px;}
+.fs_t2 .fs_search .fs_searchBtn{margin-top: 3px;width: 20px;height: 20px; float: right;background: url("/images/fsubmit_search.png") no-repeat;}
+.fs_t2 .fs_search .fs_searchBtn:HOVER{background-position: 0px -20px;}
+.fs_t2 .fs_search .fs_sinput{width: 240px;border: 0;outline: none;height: 25px;line-height: 25px;}
+.fsub_title{background: url("/images/fsubmit_bi.png") no-repeat;height: 28px;margin-bottom: 10px;}
+.fsub_title .fsub_text{padding-left: 25px;line-height: 28px;font-size: 18px; color:#1c86d7;}
+.fs-table{width: 100%;background: #E0EEEE;margin-bottom: 10px;}
+.fs-table span.xing{color: #F6295F;}
+.fs-table td{padding: 10px 5px;border-bottom: 2px solid #FFF;}
+.txt {display: inline-block;width: 300px;height: 23px;padding: 7px;line-height: 22px;font-size: 16px;border: 1px solid #cececf;outline: none;background: #FFF;}
+.txt_small{width: 85px;}
+.txt .fs_input {float: left;width: 300px;height: 22px;font-size: 16px;line-height: 22px;border: 0;outline: none;background: #fff;}
+.txt .fs_input_small{width: 52px;}
+.fs_select{height: 40px;padding: 0px;display: block;line-height: 14px;width: 200px;border: 1px solid #cececf;text-indent: 10px;overflow: hidden;font-size: 14px;}
+.fs-table .td1{border-right: 2px solid #FFF;background: #299df6;color: #FFF;text-align: center;width: 125px;}
+.fs-table .td2{width: 335px;padding-left: 20px;}
+.fs-table .td3{line-height: 24px;}
+.fsub_upload{margin-left: 15px;}
+.fsub_upload img{vertical-align: middle;width: 60px;height: 60px;}
+#uploadProject,#uploadBiaoQian{display: inline-block;}
