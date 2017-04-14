@@ -1,2 +1,2 @@
 # WX_Demo
-a demo of WeChat public number development.
+A demo of WeChat public number development.
